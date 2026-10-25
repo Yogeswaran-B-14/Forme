@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --forme-ink:#241D17; --forme-sand:#D5C5B0; --forme-cream:#F4EDE3; --forme-line:rgba(244,237,227,.35); --forme-glass:rgba(36,29,23,.55); --tap-min:44px; }
+body { margin:0; background:var(--forme-ink); color:var(--forme-cream); font-family:Inter,system-ui,sans-serif; }
+.pill { min-height:var(--tap-min); border:1px solid var(--forme-line); border-radius:999px; padding:0 20px; display:flex; align-items:center; justify-content:space-between; width:100%; background:transparent; color:inherit; font-size:15px; }
+.chip { min-height:var(--tap-min); padding:0 16px; border-radius:999px; background:var(--forme-glass); color:var(--forme-cream); border:0; }
+.chip[data-active="true"] { background:var(--forme-cream); color:var(--forme-ink); }
+.tabbar { position:fixed; inset:auto 0 0 0; height:calc(72px + env(safe-area-inset-bottom)); padding-bottom:env(safe-area-inset-bottom); background:var(--forme-glass); backdrop-filter:blur(16px); display:flex; justify-content:space-around; align-items:center; }

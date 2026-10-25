@@ -1,6 +1,5 @@
 # FORME project rules
-
-- Read BUILD_GUIDE.md before making architectural decisions. It is the source of truth.
+- Read docs/BUILD_GUIDE.md before making architectural decisions. It is the source of truth.
 - Stack: React 18 + TypeScript (strict) + Vite + Tailwind CSS, Supabase (Auth, Postgres, Storage, Edge Functions), pnpm workspaces.
 - Mobile-first. Design for a 390px-wide viewport first. All tap targets >= 44x44px.
 - Use design tokens from apps/web/src/styles/tokens.css and tailwind.config.ts. Never hard-code hex colours in components.

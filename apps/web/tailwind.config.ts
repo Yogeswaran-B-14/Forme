@@ -1,0 +1,1 @@
+export default { content: ['./index.html', './src/**/*.{ts,tsx}'], theme: { extend: { colors: { ink: '#241D17', sand: '#D5C5B0', cream: '#F4EDE3' }, fontFamily: { serif: ['"Cormorant Garamond"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] }, borderRadius: { card: '14px' } } }, plugins: [] };

@@ -1,0 +1,1 @@
+{"name":"forme","private":true,"scripts":{"dev":"pnpm --filter web dev","build":"pnpm --filter web build","lint":"tsc --noEmit -p apps/web && tsc --noEmit -p packages/outfit-engine","typecheck":"pnpm lint","test":"pnpm --filter @forme/outfit-engine test"},"devDependencies":{"typescript":"^5.5.4"}}
